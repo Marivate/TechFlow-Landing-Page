@@ -1,6 +1,6 @@
 # TechFlow 🚀
 
-![TechFlow Logo](./assets/logo.png)  
+![TechFlow Logo](./assets/logo.svg)  
 
 **AI-Powered Notes. Organize and Summarize in Seconds.**  
 
@@ -27,18 +27,6 @@ TechFlow integrates with popular tools like Google Drive, Microsoft OneDrive, Sl
 
 ---
 
-## 💻 Screenshots
-
-### Hero Section
-![Hero Screenshot](./assets/screenshots/hero.png)  
-
-### Smart Organization
-![Smart Organization Screenshot](./assets/screenshots/smart-organization.png)  
-
-### Contextual Reminders
-![Contextual Reminders Screenshot](./assets/screenshots/contextual-reminders.png)  
-
----
 
 ## 🌐 Live Demo
 Check out the live demo here: [TechFlow Live Demo](https://your-demo-link.com)  
