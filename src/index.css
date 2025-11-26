@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+  /* Lightest subtle accents */
+  --color-primary-50: #d9f0ff;
+  --color-primary-75: #c0e6ff;
+  --color-primary-100: #a6dbff;
+  --color-primary-150: #8cceff;
+  --color-primary-200: #73c3ff;
+  --color-primary-250: #59b8ff;
+
+  /* Mid-tone cyan highlights */
+  --color-primary-300: #40adff;
+  --color-primary-350: #33a1f7;
+  --color-primary-400: #2796ef;
+  --color-primary-500: #1a8ae7;
+
+  /* Dark blues / teals */
+  --color-primary-600: #1472c0;
+  --color-primary-700: #0f5a99;
+  --color-primary-800: #0b4273;
+  --color-primary-900: #072b4d;
+
+  /* Deepest base (almost black) */
+  --color-primary-1000: #041c36;
+  --color-primary-1100: #031126;
+  --color-primary-1200: #020b19;
+  --color-primary-1300: #01070f;
+  --color-primary-1400: #010408;
+  --color-primary-1500: #000204;
+
+  /* Font */
+  --font-sans: "Poppins", sans-serif;
+
+  /* Glow colors for high contrast on dark background */
+  --color-primary-glow: rgba(26, 138, 231, 0.35);
+  --color-primary-50-glow: rgba(217, 240, 255, 0.15);
+}
+
+/* Gradient backgrounds */
+.bg-gradient-to-bottom {
+  @apply bg-[url('../src/assets/Noise.webp'),linear-gradient(to_bottom,var(--color-primary-1500),var(--color-primary-1300))] bg-repeat;
+}
+
+.bg-gradient-to-top {
+  @apply bg-[url('../src/assets/Noise.webp'),linear-gradient(to_top,var(--color-primary-1500),var(--color-primary-1300))] bg-repeat;
+}
+
+/* Transitions */
+.transition-properties {
+  @apply transition-all duration-150;
+}
+
+/* Glow effects */
+.primary-glow {
+  @apply drop-shadow-[0_0px_25px_var(--color-primary-glow)];
+}
+
+.primary-glow-hover {
+  @apply hover:drop-shadow-[0_0px_25px_var(--color-primary-50-glow)];
+}
