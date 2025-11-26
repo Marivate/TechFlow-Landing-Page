@@ -1,7 +1,5 @@
 # TechFlow 🚀
 
-![TechFlow Logo](./assets/logo.svg)  
-
 **AI-Powered Notes. Organize and Summarize in Seconds.**  
 
 TechFlow is an advanced AI-powered note-taking application designed to help individuals and teams save time, stay organized, and boost productivity. Let AI automatically organize, summarize, and manage your notes across multiple devices seamlessly.  
@@ -29,7 +27,7 @@ TechFlow integrates with popular tools like Google Drive, Microsoft OneDrive, Sl
 
 
 ## 🌐 Live Demo
-Check out the live demo here: [TechFlow Live Demo](https://your-demo-link.com)  
+Check out the live demo here: [TechFlow Live Demo]([https://your-demo-link.com](https://techflow-marivate1.netlify.app/))  
 
 ---
 
